@@ -6,7 +6,7 @@ lua54 'yes'
 author 'RexShack'
 name 'rsg-wellpump'
 description 'Well pumps for RSG Framework: place, fill buckets, pack up, and shared bucket API'
-version '1.1.0'
+version '3.0.0'
 
 shared_scripts {
     '@rsg-core/shared/locale.lua',
@@ -16,6 +16,7 @@ shared_scripts {
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'server/server.lua',
+    'server/versionchecker.lua',
 }
 
 client_scripts {
